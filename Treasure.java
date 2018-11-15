@@ -16,7 +16,7 @@ public class Treasure extends GameStage implements playable
             String userIn = sc.nextLine();
             if (userIn.equals("E") || userIn.equals("W"))
             {
-                System.out.println("You walk along the river and haven't escaped yet. Try again. " + playable.inputPrompt);
+                //System.out.println("You walk along the river and haven't escaped yet. Try again. " + playable.inputPrompt);
             }
             else if (userIn.equals("N"))
             {
